@@ -1,7 +1,7 @@
 from typing import Text
 
 
-class Lexter:
+class Lexer:
     def __init__(self, text) -> None:
         self.text = text
         self.pos = -1
